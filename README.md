@@ -4,7 +4,7 @@
 
 **Desafios:** Compreender a lógica por trás de um cronômetro e definir funções para cada instância.
 
-**Deploy:** https//cronometro-ex9xp6z8w-luciusgabriel.vercel.app
+**Deploy:** [https://cronometro-dusky-ten.vercel.app/](https://cronometro-dusky-ten.vercel.app/)
 
 **Imagem**
 ![Apresentação Projeto](https://github.com/LuciusGabriel/cronometro/blob/main/assets/img/print.jpg "Apresentação Projeto")
