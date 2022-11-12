@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" type="image/x-icon" href="./assets/icon/favicon.ico">
     <title>Cronometro</title>
     <link rel="stylesheet" href="./assets/css/reset.css">
     <link rel="stylesheet" href="./assets/css/style.css">
@@ -15,15 +16,16 @@
 
             <h1>Cronômetro</h1>
             <div class="cronometro">
-                <span class="minutos"></span>:<span class="segundos"></span>                
+                <h2>00:00:00</h2>              
             </div>
             <div class="controles">
-                <button id="start">Start</button>
-                <button id="pause">Pause</button>
-                <button id="reset">Reset</button>
+                <button id="start-btn" onclick="start()">Start</button>
+                <button id="pause-btn" onclick="pause()">Pause</button>
+                <button id="reset-btn" onclick="reset()">Reset</button>
             </div>
         </div>
     </main>
+    <footer>Desenvolvido por <a href="https://github.com/LuciusGabriel" target="_blank">Lucius Gabriel</a> - 2022</footer>
     <script src="./assets/js/main.js"></script>
 </body>
 </html>
